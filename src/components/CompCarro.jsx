@@ -2,9 +2,9 @@ import CartIcon from "./CartIcon"
 
 const CompCarro = ()=>{
     return(
-        <div>
-            <CartIcon />
-            <div>2</div>
+        <div className="cartContainer">
+            <CartIcon width={70}  />
+            <div className="counterWidget">2</div>
         </div>
     )
 }

@@ -3,10 +3,10 @@ import CompCarro from "./CompCarro"
 
 const NavBar = ()=>{
     return (
-        <div>
+        <nav className="navContainer">
             <CategoryList />
             <CompCarro />
-        </div>
+        </nav>
     );
 }
 

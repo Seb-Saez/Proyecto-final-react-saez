@@ -1,5 +1,6 @@
 import './App.css'
 import Brand from './components/Brand';
+import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/NavBar';
 
 
@@ -7,10 +8,15 @@ import NavBar from './components/NavBar';
 function App() {
 
   return (
-    <div>
+    <>
+     <header>
       <Brand  />
-      <Navbar />
-    </div>
+      <NavBar />
+     </header>
+     <div>
+      <ItemListContainer greeting={"Bienvenido a Trefil Piscinas!"} />
+     </div>
+    </>
   );
 }
 
