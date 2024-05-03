@@ -1,4 +1,4 @@
-import CartIcon from "./CartIcon"
+import CartIcon from "../Carticon/CartIcon"
 
 const CompCarro = ()=>{
     return(

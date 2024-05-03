@@ -3,13 +3,13 @@ const CategoryList = ()=>{
     return (
         <ul>
             <li>
-                <a href="/#">Piscinas</a>
+                <a href="/#">Hombre</a>
             </li>
             <li>
-                <a href="/#">Riego</a>
+                <a href="/#">Mujer</a>
             </li>
             <li>
-                <a href="/#">Productos</a>
+                <a href="/#">Calzado</a>
             </li>
         </ul>
     )

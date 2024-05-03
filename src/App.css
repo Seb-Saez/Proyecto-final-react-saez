@@ -9,14 +9,25 @@ body{
 
 header{
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
     grid-row: auto;
     background-color: rgb(23, 96, 160);    
 }
 
-header h1{
+div.brand-main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+header a.brand-name{
     color: azure;
     text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    align-content: center;
+
 }
 
 nav{

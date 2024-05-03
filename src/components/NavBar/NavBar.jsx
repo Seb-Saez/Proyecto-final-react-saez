@@ -1,5 +1,5 @@
-import CategoryList from "./CategoryList"
-import CompCarro from "./CompCarro"
+import CategoryList from "../CategoryList/CategoryList"
+import CompCarro from "../CompCarro/CompCarro"
 
 const NavBar = ()=>{
     return (
