@@ -1,18 +1,15 @@
 import React from 'react';
+import './card.css';
+import { Link } from 'react-router-dom';
 
 function Card({ product }) {
   return (
     <div className="card">
-      <img src={product.image} alt={product.title} />
-      <div className="card-body">
-        <h5 className="card-title">{product.title}</h5>
-        <p className="card-text">{product.description}</p>
-        <p className="card-price">${product.price}</p>
-        <p className="card-category">{product.category}</p>
-        <div className="card-rating">
-          Rating: {product.rating.rate} ({product.rating.count} reviews)
-        </div>
-      </div>
+      <h5 className="card-category">{product.category}</h5>
+      <img src={`${product.image}`} alt={product.title} />
+      <h4 className="card-title">{product.title}</h4>
+      <p className="card-price">${product.price}</p>
+      <Link className='ver-mas' to={`/item/${product.id}`}>Ver mas</Link>
     </div>
   );
 }

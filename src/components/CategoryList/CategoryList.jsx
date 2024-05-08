@@ -1,15 +1,22 @@
+import { Link } from "react-router-dom";
 
 const CategoryList = ()=>{
     return (
         <ul>
             <li>
-                <a href="/#">Hombre</a>
+                <Link to="/">Inicio</Link>
             </li>
             <li>
-                <a href="/#">Mujer</a>
+                <Link to="/#">Hombre</Link>
             </li>
             <li>
-                <a href="/#">Calzado</a>
+                <Link to="/#">Mujer</Link>
+            </li>
+            <li>
+                <Link to="/#">Joyeria</Link>
+            </li>
+            <li>
+                <Link to="/#">Electronica</Link>
             </li>
         </ul>
     )

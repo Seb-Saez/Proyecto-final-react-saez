@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 
 
 
 const Brand = ()=> {
     return (
     <div className="brand-main">
-        <a href="http://localhost:5173/" className="brand-name">El Atelier</a>
+        <Link to="/" className="brand-name">El Atelier</Link>
     </div>
     );
 }
