@@ -14,7 +14,7 @@ header{
     display: grid;
     grid-template-columns: 30% 70%;
     grid-row: auto;
-    background-color: rgb(23, 96, 160);    
+    background-color: #1760a0;    
 }
 
 div.brand-main{

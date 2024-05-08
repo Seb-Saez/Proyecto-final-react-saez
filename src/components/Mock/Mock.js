@@ -1,7 +1,7 @@
 export const obtenerDatosMock = () => {
     return fetch('https://fakestoreapi.com/products')
       .then(response => {
-        if (!response.ok) {
+        if (!response.ok) { 
           throw new Error('Error de respuesta');
         }
         return response.json();

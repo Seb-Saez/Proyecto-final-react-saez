@@ -1,6 +1,6 @@
 div.card{
     border-radius: 0.3em;
-    min-height: max-content;
+    min-height: 30vh;
     min-width: 230px;
     width: 15vw;
     display: flex;
@@ -17,10 +17,12 @@ div.card:hover{
 
 div.card img{
     max-width: 12vw;
+    max-height: 20vw;
 }
 
 div.card h5{
     text-transform: capitalize;
+    margin: 5px;
 }
 
 div.card h4{
@@ -28,11 +30,12 @@ div.card h4{
 }
 
 div.card p.card-price{
-    background-color: rgb(22, 146, 105);
+    background-color: #169269;
     color: white;
     padding: 4px;
     text-align: center;
     border-radius: 0.3em;
+    margin: 10px;
 }
 
 div.card .ver-mas{

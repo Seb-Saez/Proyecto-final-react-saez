@@ -7,16 +7,16 @@ const CategoryList = ()=>{
                 <Link to="/">Inicio</Link>
             </li>
             <li>
-                <Link to="/#">Hombre</Link>
+                <Link to="/productos/men's clothing">Hombre</Link>
             </li>
             <li>
-                <Link to="/#">Mujer</Link>
+                <Link to="/productos/women's clothing">Mujer</Link>
             </li>
             <li>
-                <Link to="/#">Joyeria</Link>
+                <Link to="/productos/jewelery">Joyeria</Link>
             </li>
             <li>
-                <Link to="/#">Electronica</Link>
+                <Link to="/productos/electronics">Electronica</Link>
             </li>
         </ul>
     )

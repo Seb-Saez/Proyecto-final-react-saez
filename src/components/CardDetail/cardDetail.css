@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div.cargando{
+    margin: auto;
+    font-size: large;
+    font-weight: bold;
+}
+
+div.card-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    height: 100%;
+}
+
+div.detail1{    /*Parte de la imagen*/
+    height: 95%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.detail1 h4{
+    margin-left: 40px;
+}
+
+div.detail1 img{
+    padding: 10px;
+    max-width: 90%;
+    max-height: 80%;
+}
+
+
+div.detail2{      /*parte de la descripcion y contador*/
+    height: 95%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+p.description{
+    margin-bottom: 10px;
+    background-color: rgb(237, 139, 19);
+    border-radius: 0.15em;
+    font-weight: bold;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    width: 11vw;
+}
+
+.prod-arriba{
+    margin-bottom: auto;
+}
+
+.detail-price{
+    background-color: #169269;
+    padding: 3px;
+    color: white;
+    border-radius: 0.2em;
+    width: 11vw;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/*Partes del contador*/
+
+div.counter-container{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+div.counter{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.3em;
+    background-color: #c8c8c8;
+    border: 1px solid #c8c8c8;
+}
+
+div.counter button{
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e1e1e1;
+    border: 1px solid #c8c8c8;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+div.counter button:hover{
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+    transform: scale(1.1);
+}
+
+div.counter p.detail-contador{
+    font-size: larger;
+    width: 60%;
+    padding-top: 5px;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #c8c8c8;
+}
+
+div.counter-container button.añadir-carrito{
+    background-color: #1760a0;
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    border: none;
+    border-radius: 0.3em;
+}
+
+div.counter-container button.añadir-carrito:hover{
+    transform: scale(1.05);
+}
+
