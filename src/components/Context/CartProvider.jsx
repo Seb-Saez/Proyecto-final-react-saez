@@ -1,6 +1,11 @@
   import React, { useEffect, useState } from 'react';
   import { CartContext } from './CartContext';
 
+
+  function fn1(i) {
+    return true;
+  } 
+
   const CartProvider = ({ children }) => {
     const [cart, setCart] = useState(    // deinir el carrito preguntando si hay un array en localSt
       localStorage.getItem("cart") ? JSON.parse(localStorage.getItem("cart")) : []
@@ -27,6 +32,8 @@
     }, [cart]);
 
     const removeFromCart = (productId, quantity) => {
+
+      
       const itemInCart = cart.find((item) => item.product.id === productId);
       if (itemInCart) {
         const updatedCart = cart.map((item) => {
@@ -51,6 +58,13 @@
         return acc + item.product.price * item.quantity;
       }, 0)
       .toFixed(2);
+
+      //Funcion para consultar stock (devuelve un booleano)(Diego)
+      // const faltaStock = cart.some((i) => {
+      //   const stock = 5;
+      //   if (i.quantity > stock)
+      //     return true;
+      // })
 
 
     return (

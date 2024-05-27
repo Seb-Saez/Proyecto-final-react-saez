@@ -1,3 +1,8 @@
+import { collection } from "firebase/firestore";
+import { db } from "../../firebase/config";
+
+
+
 export const obtenerDatosMock = () => {
     return fetch('https://fakestoreapi.com/products')
       .then(response => {
