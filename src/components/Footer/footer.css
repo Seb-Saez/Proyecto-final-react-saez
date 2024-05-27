@@ -7,3 +7,6 @@ footer.footer-comtainer{
     background-color: rgb(23, 96, 160);
     color: white;
 }
+.footer-svg{
+    transform: scale(0.50);
+}

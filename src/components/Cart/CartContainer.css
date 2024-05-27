@@ -1,0 +1,60 @@
+div.Cart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+}
+
+h1{
+    place-self: center;
+}
+
+
+div.btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.btn-clear{
+
+    border: none;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(255, 68, 62);
+    border-radius: 0.2em;
+    color: white;
+    font-size: large;
+    padding: 2px;
+    margin: 10px;
+}
+
+.btn-clear:hover{
+    background-color: rgba(255, 68, 62, 0.822);
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+
+.btn-checkout{
+
+    border: none;
+    width: 200px;
+    text-align: center;
+    background-color: #1b803d;
+    border-radius: 0.2em;
+    color: white;
+    font-size: large;
+    padding: 2px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn-checkout:hover{
+    background-color: #1b803dcb;
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}

@@ -1,0 +1,10 @@
+div.cart-detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    height: max-content;
+    gap: 6vh;
+    padding: 1vh;
+}

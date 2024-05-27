@@ -71,7 +71,7 @@ ul li a{
     font-size: 20px;
 }
 
-.cartContainer{
+.cart-logo{
     display: flex;
     align-items: center;
 }

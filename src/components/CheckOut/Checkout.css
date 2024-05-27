@@ -1,0 +1,80 @@
+
+/*Estructura formularios*/
+form.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 20px;
+
+}
+/*Parte de los inputs*/
+div.inputs-container{
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+div.inputs-container label{
+    margin: 3px;
+    width: 50vh;
+}
+div.inputs-container input{
+    margin: 3px;
+    min-width: 20vw;
+    width: max-content;
+    border: 1px solid gainsboro;
+    border-radius: 0.2em;
+    padding: 3px;
+}
+
+div.inputs-container input:focus{
+    border: 2px solid rgb(84, 106, 228);
+}
+
+div.inputs-container input:focus-visible{
+    outline: none;
+}
+/* Alineacion del div con par input y label*/
+div.inputs-container div{
+    width: 30vw;
+    border-radius: 0.2em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*Parte del checkput con cart y boton*/
+
+div.cart-checkout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.cart-checkout h3{
+    margin: 15px;
+}
+
+button.btn-finish{
+    padding: 5px;
+    width: 30vw;
+    font-weight: bold;
+    background-color: #1b803d;
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+button.btn-finish:hover{
+    background-color: #1b803dcb;
+    cursor: pointer;
+    transform: scale(1.05);
+}
