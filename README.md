@@ -1,6 +1,3 @@
-
-¡Claro! Aquí tienes un README para tu proyecto:
-
 Mi Proyecto de E-commerce 🛒
 ¡Bienvenido a mi proyecto de e-commerce! Este es un sitio web de compras en línea construido con React y Vite, y utiliza Firebase para manejar la base de datos y la autenticación. 🌟
 
@@ -65,5 +62,3 @@ Licencia 📄
 Este proyecto está bajo la licencia MIT.
 
 Espero que disfrutes explorando y utilizando este proyecto tanto como yo disfruté creándolo. ¡Felices compras! 🛍️
-
-¡Espero que este README sea útil para tu proyecto!
