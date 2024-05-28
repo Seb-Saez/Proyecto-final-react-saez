@@ -2,9 +2,6 @@
   import { CartContext } from './CartContext';
 
 
-  function fn1(i) {
-    return true;
-  } 
 
   const CartProvider = ({ children }) => {
     const [cart, setCart] = useState(    // deinir el carrito preguntando si hay un array en localSt
