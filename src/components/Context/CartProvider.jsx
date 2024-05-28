@@ -56,7 +56,7 @@
       }, 0)
       .toFixed(2);
 
-      //Funcion para consultar stock (devuelve un booleano)(Diego)
+      //Funcion para consultar stock (devuelve un booleano)
       // const faltaStock = cart.some((i) => {
       //   const stock = 5;
       //   if (i.quantity > stock)

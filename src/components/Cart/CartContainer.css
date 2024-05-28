@@ -1,9 +1,10 @@
 div.Cart-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 20px;
+    min-height: 80vh;
 }
 
 h1{
@@ -14,7 +15,7 @@ h1{
 div.btn-container{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: space-evenly;
 }
 

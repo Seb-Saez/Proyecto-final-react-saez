@@ -1,7 +1,8 @@
 div.card{
     border-radius: 0.3em;
     min-height: 30vh;
-    min-width: 230px;
+    min-width: 260px;
+    max-height: 50vh;
     width: 15vw;
     display: flex;
     flex-direction: column;
