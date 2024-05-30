@@ -70,6 +70,7 @@ div.cart-checkout{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 25px;
 }
 
 div.cart-checkout h3{
@@ -78,7 +79,7 @@ div.cart-checkout h3{
 
 button.btn-finish{
     padding: 5px;
-    width: 30vw;
+    width: 250px;
     font-weight: bold;
     background-color: #1b803d;
     color: white;

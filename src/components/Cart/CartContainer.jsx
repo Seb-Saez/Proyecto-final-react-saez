@@ -6,7 +6,7 @@ import "./CartContainer.css"
 
 const CartContainer = ()=>{
 
-    const {cart, clearCart} = useContext(CartContext);
+    const {cart, clearCart, cartTotal} = useContext(CartContext);
 
 
     return(
@@ -18,6 +18,7 @@ const CartContainer = ()=>{
             <CartDetail cart={cart} />   // cartTotal={cartTotal}
             )}
             <div className="btn-container" >
+                <h2>Total: ${cartTotal} </h2>
                 <Link className="btn-checkout" to="/checkout" > Finalizar mi compra </Link>
                 <button className="btn-clear" onClick={clearCart} >Vaciar carrito</button>
             </div>

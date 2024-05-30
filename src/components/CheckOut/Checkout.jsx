@@ -7,7 +7,7 @@ import { collection, addDoc, getFirestore} from "firebase/firestore"
 
 const Checkout = ()=>{
 
-    const {cart, clearCart} = useContext(CartContext);
+    const {cart, clearCart, cartTotal} = useContext(CartContext);
     const {buyer, handleInputChange } = useBuyer();
     const [orderId, setOrderId] = useState("");
 
@@ -71,6 +71,7 @@ const Checkout = ()=>{
           <div className="cart-checkout">
             <h3>Resumen de mi pedido</h3>
             <CartDetail cart={cart} />
+            <h2>Total a pagar: ${cartTotal} </h2>
             <button className="btn-finish" type="submit">Realizar pedido</button>
           </div>
         </form>
